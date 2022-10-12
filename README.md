@@ -24,9 +24,9 @@ Assume the Opcode for Immediate type and R-type instructions as below
 
 <img width="449" alt="Screen Shot 2022-10-11 at 11 29 59 PM" src="https://user-images.githubusercontent.com/22619455/195266907-5037692a-1905-4cd9-90ab-89d162f016ed.png">
 
-      Additionally R-type instructions have multiple variations defined by their function codes. The R-type instructions should include add, sub, AND, OR, srl (Shift right logical), sll (shift left logical) .The different R-type instructions that the processor should support are tabulated below.
+Additionally R-type instructions have multiple variations defined by their function codes. The R-type instructions should include add, sub, AND, OR, srl (Shift right logical), sll (shift left logical) .The different R-type instructions that the processor should support are tabulated below.
  
  <img width="862" alt="Screen Shot 2022-10-11 at 11 30 06 PM" src="https://user-images.githubusercontent.com/22619455/195266939-feac8161-9010-4f4a-90f8-ba6385a8e2df.png">
+ *Second source is not used for shift operations
 
-                                                        *Second source is not used for shift operations
 The processor module should have only two inputs CLK and Reset. When Reset is activated the Processor starts executing instructions from 0th location of instruction memory.
