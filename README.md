@@ -1,5 +1,5 @@
 # comp-arch-datapath-control-unit
-Designing and implementing (in Verilog) datapath and control unit for a single cycle processor (including instruction memory)
+Designing and implementing Datapath and Control Unit for a Single-Cycle Processor (including instruction memory)
 
 ## Block level design of the processor (datapath + control unit)
 
